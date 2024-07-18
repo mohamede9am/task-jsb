@@ -1,0 +1,44 @@
+:global(body) {
+  background: url('../../assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  width: 800px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .box {
+    width: 480px;
+  }
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contactItem img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.contactActions {
+  margin-left: auto;
+}
+
+.searchBar {
+  margin-bottom: 20px;
+}
